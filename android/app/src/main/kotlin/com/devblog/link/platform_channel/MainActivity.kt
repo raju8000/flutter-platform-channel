@@ -1,6 +1,5 @@
 package com.devblog.link.platform_channel
 
-
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
@@ -23,7 +22,6 @@ class MainActivity: FlutterFragmentActivity() {
             }
         }
     }
-
     private fun getOsName(): String {
         return "Android " + Build.VERSION.RELEASE
     }

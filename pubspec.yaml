@@ -17,7 +17,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   web_os_checker:
-    path: web_os_checker
+    path: web_os_checker #Plugin is in root folder of project
 
 dev_dependencies:
   flutter_test:

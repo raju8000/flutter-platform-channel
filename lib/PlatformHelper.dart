@@ -8,7 +8,7 @@ class PlatformHelper {
   static Future<String> getOSName() async {
     String osName;
     try {
-      if(kIsWeb){
+      if(kIsWeb){ /// Calling web native code with help of plugin
         osName = await WebOsChecker().getPlatformVersion()??"";
       }
       else {
